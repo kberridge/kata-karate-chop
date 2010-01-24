@@ -1,0 +1,10 @@
+
+task :default => [:build, :mspec]
+
+task :build do
+  sh "msbuild"
+end
+
+task :mspec do
+  sh "\"3rd Party/mspec/mspec.exe\" bin/Debug/KarateChop.exe"
+end

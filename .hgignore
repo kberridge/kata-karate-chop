@@ -1,0 +1,18 @@
+syntax: glob
+
+*.orig
+*.suo
+*.bun
+*.swp
+*.sln.cache
+*bin\
+*obj\
+*sql\
+*TestResults\
+SourceAnalysis.Cache
+*.csproj.user
+*\Debug\*.msi
+*\Debug\setup.exe
+*\Release\*.msi
+*\Release\setup.exe
+SpecsReport.html
